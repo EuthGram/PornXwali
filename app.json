@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "36330180",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "8770518531:AAGuqpVU89THZ27z6_JQpkIsJ35FO3r0haA",
         "required": true
     },
     "buildpacks": [
