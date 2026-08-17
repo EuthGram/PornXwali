@@ -1,37 +1,32 @@
 {
-    "name": "xBitMuisc",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://imgur.com/a/zdIwpug",
-    "keywords": [
+  "name": "xBitMusic",
+  "description": "A Telegram Music Player Bot written in Python with Pyrogram and Py-Tgcalls.",
+  "keywords": [
     "python3",
     "telegram",
     "bot",
-    "AnonX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "36330180",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "8770518531:AAGuqpVU89THZ27z6_JQpkIsJ35FO3r0haA",
-        "required": true
+    "pyrogram",
+    "musicbot"
+  ],
+  "logo": "https://i.imgur.com/zdIwpug.png",
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/EuthGram/PornXwali"
-          }
-      ],
-      "stack": "container"
+    "API_HASH": {
+      "description": "Telegram API Hash from my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram bot token from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-24"
 }
