@@ -5,8 +5,8 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
-DS_API_ID = int(environ.get("DS_API_ID", "36330180"))
-DS_API_HASH = environ.get("DS_API_HASH", "afb7a21b5d2805604c2f514f172bcdb8")
+DS_API_ID = int(environ.get("DS_API_ID", "39792511"))
+DS_API_HASH = environ.get("DS_API_HASH", "45c445ee134ca8645e7f34ba795849df)
 DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "8770518531:AAGuqpVU89THZ27z6_JQpkIsJ35FO3r0haA")
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "PornXwaliBot") # bot username without @
 DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1004365695836"))
@@ -24,7 +24,7 @@ PREMIUM_LIMIT_VIDESI = 15
 # Bot Admins
 try:
     DS_ADMINS=[]
-    for x in (environ.get("DS_ADMINS", "8743131347").split()):
+    for x in (environ.get("DS_ADMINS", "8212067566").split()):
         DS_ADMINS.append(int(x))
 except ValueError:
       raise Exception("Your Admins list does not contain valid integers.")
