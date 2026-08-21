@@ -31,7 +31,7 @@ async def checkSub(bot, message):
         return False
     except Exception as e:
         print(e)
-        await message.reply_text("Something went wrong. Contact my [Developer](https://t.me/NoOneIsMinee').")
+        await message.reply_text("Something went wrong. Contact my [Developer](https://t.me/euthle').")
         return False
     
 
